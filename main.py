@@ -25,6 +25,8 @@ while True:
   request = str(request)  
   led_on = request.find('/?led=on')
 
+  #i adjust the on off button switch to just get pulse for a second for exact use of calling bell
+  #replace the next line with this cammand for get switch on and of mode 'led_off = request.find('/?led=off')'
   led_off = request.find('/?led=on')
   if led_on == 6:
     print('LED ON')
