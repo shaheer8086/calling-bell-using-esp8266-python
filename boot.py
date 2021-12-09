@@ -47,6 +47,7 @@ print(ap.ifconfig())
 #print('Connection successful')
 #print(station.ifconfig())
 
+#here we are using D1 pin(GPIO5) in esp8266
 led = Pin(5, Pin.OUT)  #the pin that you are connecting your bell
 
 
