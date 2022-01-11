@@ -9,6 +9,8 @@ except:
 from machine import Pin
 import network
 
+import time
+
 import esp
 esp.osdebug(None)
 
