@@ -6,6 +6,9 @@ def web_page():
     gpio_state="ON"
   else:
     gpio_state="OFF"
+    
+    #add the below scipt in html code after <head> open tag,for to close automatically the web page in a time delay
+    #<script>setTimeout(function()window.close() }, 100);</script>
   
   html = """<html><head> <title>Milestone Door Server</title> <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,"> <style>html{font-family: Helvetica; display:inline-block; margin: 0px auto; text-align: center;}
