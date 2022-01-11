@@ -15,6 +15,11 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
+#if you set static ip for the module,the code is written in connectwifi.py,so you want to use that file you can uncomment the below two lines
+#import Connectwifi
+#Connectwifi.connect()
+#if you uncomment the above two lines,comment all the lines below without the last line
+
 ssid = 'type the ssid that you want to set for this module'
 password = 'type your password that you want to set for this module'
 
