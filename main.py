@@ -31,6 +31,8 @@ while True:
   if led_on == 6:
     print('LED ON')
     led.value(1)
+    #a small delay in on and off mode of the switch
+    time.sleep(.5)
   if led_off == 6:
     print('LED OFF')
     led.value(0)
